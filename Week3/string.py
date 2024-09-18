@@ -68,7 +68,9 @@ a = "Watermelon"
 b = "it's yummy"
 print(a + " " + b )
 # The upper() method returns the string in upper case:
-
+a = "i like cookies"
+b = "it's yummy"
+print(a + " " + b )
 # The lower() method returns the string in lower case:
 
 # Whitespace is the space before and/or after the actual text, and very often you want to remove this space. We can use strip()

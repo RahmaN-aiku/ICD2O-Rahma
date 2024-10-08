@@ -52,7 +52,12 @@ else:
 # exercises
 # 1. Write a program that checks if a student is eligible for a scholarship.
 #   A student is eligible if they have a GPA of 3.5 or higher and they participate in extracurricular activities.
+username = "admin"
+password = "1234"
 
+if (username == "admin" and password == "1234"):
+   if ("Incorrect username"):
+       print("Access granted")
 
 # 2. Write a program that simulates a simple login system.
 # Check if the username is "admin" and the password is "1234". If both are correct, print "Access granted.". If the username is wrong, print "Incorrect username.". If the password is wrong, print "Incorrect password.".

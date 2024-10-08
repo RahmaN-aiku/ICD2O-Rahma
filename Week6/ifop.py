@@ -1,14 +1,14 @@
 # if statements allow for branches in the code
-# nested if statements allow us to check ______________________________ in ______ branch of our code
+# nested if statements allow us to check multiple conditions in one branch of our code
 
 # example - question 1 from nestedif.py
 # simulating a traffic light: pay attention to the conditions and the order!
 lightColour = "red"
-if (lightcolour!= "red"):
-    if(lightcolour!= "green"):
-        print("Go")
-else:
-    print("Caution, prepare to stop")
+if  (lightColour!= "red"):
+    if (lightcolour == "green"):
+            print("Go")
+    else:
+        print("Caution, prepare to stop")
 else:
     print("Stop")
 # __________________ also allow us to check multiple conditions in one branch
@@ -29,24 +29,24 @@ else:
 # same example with logical operators
 #if raining and ownUmbrella:
 #    print("I will be dry.")
-#elif raining and not ownUmbrella:
+#elif raining and not ownUmbrella:   # True and not False = True and True = True
 #    print("I should have bought an umbrella.")
 #else:
 #    print("Today is a sunny day!")
 
-
+# We will negate the value - not True = False, not False = true
 # guided example
 age = 20
 is_citizen = True
 
-if ():  # what goes here instead of the parentheses?
+if (age >= 18 and is_citizen):  # what goes here instead of the parentheses?
     print("You are eligible to vote.")
 else:
     print("You are not eligible to vote.")
 
-# nested if statements are good when checking multiple conditions _________________
-# logical operators allow us to check for multiple conditions ___________
-# logical operators can be a little harder to ___________, but are more ___________
+# nested if statements are good when checking multiple conditions one after the other (depending conditions)
+# logical operators allow us to check for multiple conditions is a single expression (at once)
+# logical operators can be a little harder to code, but are more concise
 # unless I specifically say to use one or the other, you can use whichever
 
 # exercises

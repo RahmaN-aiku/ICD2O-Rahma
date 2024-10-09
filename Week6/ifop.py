@@ -52,12 +52,29 @@ else:
 # exercises
 # 1. Write a program that checks if a student is eligible for a scholarship.
 #   A student is eligible if they have a GPA of 3.5 or higher and they participate in extracurricular activities.
+gpa = 3.5
+participate_in_extracurricular_activites = True
+
+if gpa >= 3.5:
+  if (participate_in_extracurricular_activites):
+    print("Eligible for a scholarship")
+  else:
+    print("Not eligible because they don't participate in extracurricular activities.")
+else:
+    print("Low gpa")
+  
+
+# 2. Write a program that simulates a simple login system.
+# Check if the username is "admin" and the password is "1234". If both are correct, print "Access granted.". If the username is wrong, print "Incorrect username.". If the password is wrong, print "Incorrect password.".
 username = "admin"
 password = "1234"
 
 if (username == "admin" and password == "1234"):
-   if ("Incorrect username"):
-       print("Access granted")
+    print("Acces granted")
+elif username == "admin" and password == "1342":
+    print("Incorrect password")
+else:
+    print("Incorrect username")
 
 # 2. Write a program that simulates a simple login system.
 # Check if the username is "admin" and the password is "1234". If both are correct, print "Access granted.". If the username is wrong, print "Incorrect username.". If the password is wrong, print "Incorrect password.".

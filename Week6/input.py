@@ -13,7 +13,7 @@ print("You are: " + age + " Years old")
 
 # Exercise 1:
 age = input("How old are you? ")
-print(" You are 14 ")
+print(" You are " + age)
 ten_years = input("How old are you going to be in ten years? ")
 print("24 years old")
 

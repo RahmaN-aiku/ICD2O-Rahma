@@ -37,3 +37,7 @@ print(Vegetables[0:1])
 
 #Excersize 5
 
+students = [['Alice', 85], ['Bob', 92], ['Charlie', 88]]
+print(students[1][1])
+students[1][1] = 90
+print(students)
